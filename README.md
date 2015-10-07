@@ -12,19 +12,7 @@ Conheça um pouco mais:
 
 Vagas
 ==============================
-Conheça as nossas vagas abertas:
-
-Desenvolvedor PHP Pleno/Sênior
-------------------------------
-
-Conhecimentos Necessários:
-
-* Linguagem PHP 5.4;
-* Experiência mínima de 3 anos e sólidos conhecimentos em desenvolvimento de sistemas;
-* Necessário: Programação orientada a Objetos, Design Patterns, MVC, MySQL; 
-* Desejável: frameworks PHP (Symfony2, Zend), ORM (Doctrine2, Propel), Versionamento de Código (Git, SVN), Desenvolvimento Ágil (Kanban, Scrum);
-* Boas práticas: Integração Continua, Testes (PHPUnit, Behat), Deploy Contínuo (Capistrano);
-
+No momento não temos nenhuma vaga para fazer parte de nosso time.
 
 Como se Candidatar
 ==================
@@ -33,7 +21,7 @@ Se você se convenceu que quer trabalhar na ClickBus:
 
 * Realize um fork desse projeto;
 * Escolha um dos dois testes disponíveis no diretório **testes**
-* Faça um pull request ou caso você tenha alguma restrição em relação a enviar o pull-request publicamente, encaminhe o seu CV para [vagas@clickbus.com.br](mailto:vagas@clickbus.com.br), com os testes em anexo, a versão do PHP utilizada e as suas dependências.
+* Faça um pull request ou caso você tenha alguma restrição em relação a enviar o pull-request publicamente, encaminhe o seu CV para [rh@clickbus.com.br](mailto:rh@clickbus.com.br), com os testes em anexo, a versão do PHP utilizada e as suas dependências.
 
 Sinta-se a vontade para incluir QUALQUER coisa que você acredite que
 vá ser bom pra sua imagem perante quem estará recebendo esses dados (twitter,
