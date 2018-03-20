@@ -3,7 +3,7 @@
 <img height="350" src="https://user-images.githubusercontent.com/1230528/37670655-996e7268-2c48-11e8-823e-d31eca7d8a35.png">     <img height="350" src="https://user-images.githubusercontent.com/1230528/37670656-99a08938-2c48-11e8-82f7-612e350ccaab.png">
 
 
-### Overview
+### Descrição
 
 Eu desejo ver uma lista de topicos recentes do github (https://developer.github.com/v3/search/#search-topics) conforme dados da minha busca.
 
@@ -31,7 +31,7 @@ O wireframe acima é apenas uma ideia do que a tela deve mostrar: um campo de bu
 
 
 ### Critérios da avaliação
-* Criatividade: As instruções acima não limitam nenhum desejo do programador, seja livre;
+* Criatividade: As instruções acima não limitam nenhum desejo do desenvolvedor, seja livre;
 * Organização: estrutura do projeto, versionamento;
 * Boas práticas;
 * Tecnologia: uso de paradigmas, frameworks e bibliotecas.
