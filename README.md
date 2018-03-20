@@ -16,7 +16,6 @@ E tudo isso só é possível porque nós temos um time extremamente qualificado 
 
 Posição |	Time | Localização
 ------- | ---- | -----------
-Analista de Gente (Recursos Humanos)	| RH	| São Paulo
 Analista Junior de Qualidade	| TI	| São Paulo
 Analista Senior de Qualidade	| TI	| São Paulo
 Desenvolvedor Java Senior	| TI	| São Paulo
@@ -30,4 +29,4 @@ www.clickbus.com.br/institucional/carreiras
 
 Está afim de embarcar nessa? Mostre a sua bagagem pra gente aplicando para esta vaga! :)
 
-Os interessados devem enviar o CV para recrutamento@clickbus.com.br com a vaga pretendida no assunto (ex: "Analista de Gente")
+Os interessados devem enviar o CV para recrutamento@clickbus.com.br com a vaga pretendida no assunto (ex: "Desenvolvedor Front-end Senior")
