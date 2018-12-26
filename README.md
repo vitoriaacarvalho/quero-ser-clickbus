@@ -14,15 +14,6 @@ E tudo isso só é possível porque nós temos um time extremamente qualificado 
 
 # Vagas
 
-Posição |	Time | Localização | Testes
-------- | ---- | ----------- | ------
-Analista Junior de Qualidade	| TI	| São Paulo | [Fazer teste](https://www.hackerrank.com/qa-clickbus)
-Analista Senior de Qualidade	| TI	| São Paulo | [Fazer teste](https://www.hackerrank.com/qa-clickbus)
-Desenvolvedor Java Senior	| TI	| São Paulo | 
-Desenvolvedor Front-end Junior/Pleno	| TI	| São Paulo | [Fazer teste](https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/fullstack-developer)
-Desenvolvedor Back-end PHP Pleno/Senior	| TI	| São Paulo | [Fazer teste](https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/fullstack-developer)
-Coordenador de Produto Pleno	| TI	| São Paulo | 
-
 www.clickbus.com.br/institucional/carreiras
 
 # Como se Candidatar
