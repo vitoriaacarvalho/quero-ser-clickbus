@@ -2,9 +2,9 @@
 
 ### Descrição
 
-Eu desejo ver uma lista de trips (https://fullstack-test.clickbus.net/trips) conforme dados da minha busca.
+Eu desejo ver uma lista de trips (https://clickbus-teste.herokuapp.com/trips) conforme dados da minha busca.
 
-Caso eu clique em um item eu desejo ver o seat map dessa trip (https://fullstack-test.clickbus.net/trip/{{tripId}}).
+Caso eu clique em um item eu desejo ver o seat map dessa trip (https://clickbus-teste.herokuapp.com/trip/{{tripId}}).
 
 Segue uma idéia de card, Desktop e Mobile.
 
