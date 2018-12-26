@@ -1,34 +1,43 @@
-## Opção 1: Lista
-
-<img height="350" src="https://user-images.githubusercontent.com/1230528/37670655-996e7268-2c48-11e8-823e-d31eca7d8a35.png">     <img height="350" src="https://user-images.githubusercontent.com/1230528/37670656-99a08938-2c48-11e8-82f7-612e350ccaab.png">
-
+## Lista e Detalhes de Viagem
 
 ### Descrição
 
-Eu desejo ver uma lista de topicos recentes do github (https://developer.github.com/v3/search/#search-topics) conforme dados da minha busca.
+Eu desejo ver uma lista de trips (https://fullstack-test.clickbus.net/trips) conforme dados da minha busca.
 
-Caso eu clique em um item eu desejo ver a descrição completa.
+Caso eu clique em um item eu desejo ver o seat map dessa trip (https://fullstack-test.clickbus.net/trip/{{tripId}}).
 
-O wireframe acima é apenas uma ideia do que a tela deve mostrar: um campo de busca e a lista de resultados paginada e a descrição completa mediante ação do usuário.
+Segue uma idéia de card, Desktop e Mobile.
+
+<img src="https://user-images.githubusercontent.com/9574266/50453177-f166d900-0925-11e9-802d-862b0274ff58.png">
+Desktop
+
+<img src="https://user-images.githubusercontent.com/9574266/50453229-4acf0800-0926-11e9-9dac-4fc6e97b8364.png">
+Mobile
+
+Segue a documentação do posicionamento dos assentos.
+
+<img src="https://user-images.githubusercontent.com/9574266/50453235-54f10680-0926-11e9-9de7-254b00cfe010.png">
+<img src="https://user-images.githubusercontent.com/9574266/50453245-65a17c80-0926-11e9-9c41-a17d0ec9f5f8.png">
 
 ### Requisito
 
 * PHP (opcional para vagas frontend);
 * Javascript;
-* Paginação de 5 em 5 itens e paginar o restante;
 * Arquivo README.md com as instruções/explicações sobre como executar e testar o projeto.
 
 ### Desejável
 * Layout responsivo (qualquer biblioteca);
+* Pré-processador de css, Ex: Sass;
 * Testes unitários;
 * ES6 (caso seja em JS);
-* Symfony (caso seja em PHP);
-* Mapear o json para objeto;
-* Scroll infinito.
+* Mapear o json para objeto.
 
 ### Diferencial
-* React / Vue / Angular.
-
+* Framework JS;
+* SEO;
+* Ordenação e filtros da lista;
+* Webpack;
+* Continuous Integration.
 
 ### Critérios da avaliação
 * Criatividade: As instruções acima não limitam nenhum desejo do desenvolvedor, seja livre;
