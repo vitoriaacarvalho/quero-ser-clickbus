@@ -4,7 +4,7 @@
 
 Eu desejo ver uma lista de trips (https://clickbus-teste.herokuapp.com/trips) conforme dados da minha busca.
 
-Caso eu clique em um item eu desejo ver o seat map dessa trip (https://clickbus-teste.herokuapp.com/trip/{{tripId}}).
+Caso eu clique em um item eu desejo ver o seat map dessa trip (https://clickbus-teste.herokuapp.com/trip/{{tripId}}). Ex: (https://clickbus-teste.herokuapp.com/trip/f301304-8b78-350a-b9b0-d3ae576eb729)
 
 Segue uma idéia de card, Desktop e Mobile.
 
