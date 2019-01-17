@@ -19,7 +19,7 @@ Segue a documentação do posicionamento dos assentos.
 <img src="https://user-images.githubusercontent.com/9574266/50453235-54f10680-0926-11e9-9de7-254b00cfe010.png">
 <img src="https://user-images.githubusercontent.com/9574266/50453245-65a17c80-0926-11e9-9c41-a17d0ec9f5f8.png">
 
-### Requisito
+### Requisitos
 
 * PHP (opcional para vagas frontend);
 * Javascript;
