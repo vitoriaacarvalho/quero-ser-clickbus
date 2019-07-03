@@ -29,7 +29,7 @@ A place must have the following fields:
 
 # Evaluation
 - Project structure, architecturing and organization
-- Programming good pratices
+- Programming good practices
 - VCS practices
 
 # Delivery
