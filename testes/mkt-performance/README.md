@@ -6,12 +6,14 @@
 ### Questão 1
 
 O arquivo countries_info.p contém um dicionário em Python que pode ser atribuído a uma variável. Para isso, primeiramente, importe a biblioteca pickle e execute a linha countries_info = pickle.load(open('countries_info.p', 'rb')) (o arquivo countries_info.p deve estar no mesmo diretório que o este código Python). Com isso, a variável countries_info conterá o dicionário que será usado nessa questão. Esse dicionário está estruturado da seguinte forma:
+```
 	{
     	coluna1 -> [valor11, valor21, valor13, ...]
     	coluna2 -> [valor12, valor22, valor23, ...]
     	coluna3 -> [valor13, valor23, valor33, ...]
     	...
  	}
+```
 
 Assim, um elemento corresponde à combinação (valor11, valor12, valor13, ...) ou (valor21, valor22, valor23, ...) ou (valor31, valor32, valor33, ...).
 
