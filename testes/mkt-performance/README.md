@@ -1,6 +1,8 @@
 ## Analista de Marketing de Performance - Automação 
 
-### Abaixo estão as questões relativas ao requisito técnico, Python. Para esse teste por favor use Python 3.
+Abaixo estão as questões relativas ao requisito técnico, Python. Para esse teste por favor use Python 3.
+
+Para entregar, crie um fork com os arquivos resultantes e envie o link pelo Kenoby.
 
 
 ### Questão 1
