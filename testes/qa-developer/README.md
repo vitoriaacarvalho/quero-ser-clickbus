@@ -20,6 +20,8 @@ Dica 2: Para rodar o teste use o comando cucumber --tags @ClickBus SETTINGS=Clic
 
 * Ruby
 * Cucumber
+* ChromeDriver
+* Chrome / Chromium
 * Arquivo README.md com as instruções/explicações sobre como executar e testar o projeto.
 
 ### Critérios da avaliação
