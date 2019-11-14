@@ -9,11 +9,11 @@ Com isso gostaríamos de fazer um pequeno desafio para testar suas habilidades p
 
 Contexto:
 
-Customer Experience é Conjunto de interações que ocorrem entre uma empresa e o seu cliente, construindo uma memória e sentimentos entre ambos. Sabendo que essas interações podem ocorrer através de **Ura telefônica, Chat Online, Whatsapp e e-mail**. E as informações possuem datasets diferentes, precisamos integrar todos para conseguir extrair as melhores informações referente ao cliente.
+Customer Experience é Conjunto de interações que ocorrem entre uma empresa e o seu cliente, construindo uma memória e sentimentos entre ambos. Essas interações podem ocorrer através de **Ura telefônica, Chat Online, Whatsapp e e-mail**. E como as informações possuem datasets diferentes, precisamos integrar todos esses dados para conseguir extrair as melhores informações referentes ao cliente.
 
 #### Dataset - Ura telefônica
 
-(Formato: .json - Linha de exemplo)
+(Arquivo: UraTelefonica.json - Linha de exemplo)
 
 ```
 {
@@ -40,7 +40,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Dataset - Chat Online
 
-(Formato: .json - Linha de exemplo)
+(Formato: ChatOnline.json - Linha de exemplo)
 
 ```
   {
@@ -59,7 +59,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Dataset - Whatsapp
 
-(Formato: .csv - Linha de exemplo)
+(Formato: Whatsapp.csv - Linha de exemplo)
 
 
 | Início da conversa  | Fim da conversa (duração)| Fim da conversa (finalizado?)|Tempo duração atendimento|Semana|Finalizado?|E-mail|
@@ -69,7 +69,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Dataset - E-mail
 
-(Formato: .csv - Linha de exemplo)
+(Formato: email.csv - Linha de exemplo)
 
 |Origem do caso  |Loja| Semana|Data/Hora de abertura|Data/Hora de fechamento|Sub Classificação|Classificação|Email do cliente|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -78,14 +78,14 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Queremos que você como Engenheiro de Dados
 
-1) Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los(pequena explicação). Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
+1) Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los (pequena explicação). Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
 
 2) Crie um script para efetuar extração, transformação e carregamento desses dados no banco de dados que você modelou acima. (python)
 
-3) A partir da sua modelagem, construa três querys para responder: 
-3.1) A quantidade de contatos nas últimas 24h por cliente.
-3.2) Todas a interações de cada plataforma por cliente
-3.3) Última interação e qual plataforma por cliente.
+3) A partir da sua modelagem, construa três queries para responder: 
+- 3.1) A quantidade de contatos nas últimas 24h por cliente.
+- 3.2) Todas a interações de cada plataforma por cliente
+- 3.3) Última interação e qual plataforma por cliente.
 
 4) Caso tenha conhecimento em AWS/GCP(Google Cloud Platform), quais serviços você utilizaria para garantir a performance da sua arquitetura de dados.
 
@@ -102,5 +102,5 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 Não faz parte do desafio, mas se você quiser responder:
 
-- Informe como seria possvel efetuar atualizações em tempo real (tecnologias que podem ser utilizadas).
+- Informe como seria possivel efetuar atualizações em tempo real (tecnologias que podem ser utilizadas).
 
