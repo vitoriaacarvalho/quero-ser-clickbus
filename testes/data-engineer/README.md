@@ -9,11 +9,11 @@ Com isso gostaríamos de fazer um pequeno desafio para testar suas habilidades p
 
 Contexto:
 
-Customer Experience é Conjunto de interações que ocorrem entre uma empresa e o seu cliente, construindo uma memória e sentimentos entre ambos. Sabendo que essas interações podem ocorrer através de **Ura telefônica, Chat Online, Whatsapp e e-mail**. E as informações possuem datasets diferentes, precisamos integrar todos para conseguir extrair as melhores informações referente ao cliente.
+Customer Experience é Conjunto de interações que ocorrem entre uma empresa e o seu cliente, construindo uma memória e sentimentos entre ambos. Essas interações podem ocorrer através de **Ura telefônica, Chat Online, Whatsapp e e-mail**. E como as informações possuem datasets diferentes, precisamos integrar todos esses dados para conseguir extrair as melhores informações referentes ao cliente.
 
 #### Dataset - Ura telefônica
 
-(Formato: .json - Linha de exemplo)
+(Arquivo: UraTelefonica.json - Linha de exemplo)
 
 ```
 {
@@ -40,7 +40,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Dataset - Chat Online
 
-(Formato: .json - Linha de exemplo)
+(Formato: ChatOnline.json - Linha de exemplo)
 
 ```
   {
@@ -59,7 +59,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Dataset - Whatsapp
 
-(Formato: .csv - Linha de exemplo)
+(Formato: Whatsapp.csv - Linha de exemplo)
 
 
 | Início da conversa  | Fim da conversa (duração)| Fim da conversa (finalizado?)|Tempo duração atendimento|Semana|Finalizado?|E-mail|
@@ -69,7 +69,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Dataset - E-mail
 
-(Formato: .csv - Linha de exemplo)
+(Formato: email.csv - Linha de exemplo)
 
 |Origem do caso  |Loja| Semana|Data/Hora de abertura|Data/Hora de fechamento|Sub Classificação|Classificação|Email do cliente|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
