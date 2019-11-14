@@ -82,7 +82,7 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 2) Crie um script para efetuar extração, transformação e carregamento desses dados no banco de dados que você modelou acima. (python)
 
-- 3) A partir da sua modelagem, construa três queries para responder: 
+3) A partir da sua modelagem, construa três queries para responder: 
 - 3.1) A quantidade de contatos nas últimas 24h por cliente.
 - 3.2) Todas a interações de cada plataforma por cliente
 - 3.3) Última interação e qual plataforma por cliente.
