@@ -78,14 +78,14 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 #### Queremos que você como Engenheiro de Dados
 
-1) Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los(pequena explicação). Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
+1) Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los (pequena explicação). Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
 
 2) Crie um script para efetuar extração, transformação e carregamento desses dados no banco de dados que você modelou acima. (python)
 
-3) A partir da sua modelagem, construa três querys para responder: 
-3.1) A quantidade de contatos nas últimas 24h por cliente.
-3.2) Todas a interações de cada plataforma por cliente
-3.3) Última interação e qual plataforma por cliente.
+- 3) A partir da sua modelagem, construa três queries para responder: 
+- 3.1) A quantidade de contatos nas últimas 24h por cliente.
+- 3.2) Todas a interações de cada plataforma por cliente
+- 3.3) Última interação e qual plataforma por cliente.
 
 4) Caso tenha conhecimento em AWS/GCP(Google Cloud Platform), quais serviços você utilizaria para garantir a performance da sua arquitetura de dados.
 
@@ -102,5 +102,5 @@ Customer Experience é Conjunto de interações que ocorrem entre uma empresa e 
 
 Não faz parte do desafio, mas se você quiser responder:
 
-- Informe como seria possvel efetuar atualizações em tempo real (tecnologias que podem ser utilizadas).
+- Informe como seria possivel efetuar atualizações em tempo real (tecnologias que podem ser utilizadas).
 
