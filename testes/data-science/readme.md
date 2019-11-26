@@ -7,7 +7,7 @@ A ClickBus quer ajudar as viações a entender como o desconto dado por elas con
 ### Como são feitas as vendas
 
 As viações definem o preço do ticket e este é cobrado do cliente final. Parte desse valor cobrado fica com a ClickBus (comissão) e outra parte é devolvido para a empresa de ônibus.
-A ClickBus provêm soluções de inteligência que dizem para as viações qual é o preço a ser cobrado na viagem, mas após o período de descontos dados as viações pedem análises do retorno destes. 
+A ClickBus provê soluções de inteligência que diz para as viações qual é o preço a ser cobrado na viagem, mas após o período de descontos dados as viações pedem análises do retorno destes. 
 
 ### O que deverá ser entregue
 
@@ -16,7 +16,7 @@ Algumas perguntas deverão ser respondidas:
 
 - Os descontos mais utilizados (ou seja, os tickets com desconto mais vendidos) têm alguma relação com o fato de serem [e-tickets](https://www.spedbrasil.com.br/bpe/) ? E tem relação com a disposição do assento entre janela / corredor ?
 
-- Há alguma relação entre variação de preço na rota e variação de vendas na mesma acima do "normal" (ou seja, do observado na demais rotas) ?
+- Há alguma relação entre variação de preço na rota e variação de vendas na mesma acima do "normal" ?
 
 - Pensando no crescimento de vendas através do desconto, para quais viações você pediria descontos no final de ano e em quais rotas ?
 
@@ -45,6 +45,7 @@ A descrição de cada coluna está abaixo:
 
 ## Dicas
 
-Para auxiliar calcule o valor de ticket mais comum por mês, rota, viação e classe de serviço e use-o como o valor padrão. O que estiver abaixo de 80% desse valor é um ticket com desconto.
+Para calcular o desconto, obtenha primeiro o valor inteiro do ticket. Ele pode ser obtido calculando o valor de ticket mais comum por mês, rota, viação e classe de serviço. 
+O que estiver abaixo de 80% desse valor inteiro é um ticket com desconto.
 
 Considere os assentos ímpares como lugares na janela e os pares como lugares no corredor dos ônibus.
