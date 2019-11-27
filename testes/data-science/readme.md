@@ -24,7 +24,7 @@ Algumas perguntas deverão ser respondidas:
 
 ## Dados
 
-O arquivo [tickets_dataset.csv](https://s3-sa-east-1.amazonaws.com/static2.clickbus.com.br/data-science/case-desconto/tickets_dataset.csv) contém uma lista de tickets vendidos pela ClickBus no ano de 2019. Cada linha representa um ticket e tem suas principais informações.
+O arquivo [tickets_dataset.csv](https://s3-sa-east-1.amazonaws.com/static2.clickbus.com.br/data-science/case-desconto/tickets_dataset.csv) contém uma lista de tickets vendidos pela ClickBus. Cada linha representa um ticket e tem suas principais informações.
 
 A descrição de cada coluna está abaixo:
 
