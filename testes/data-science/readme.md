@@ -34,9 +34,9 @@ A descrição de cada coluna está abaixo:
 | kiosk_printed_flag  | Flag se o ticket foi impresso em um dos quiosques ClickBus  |
 | eticket_flag  | Flag se o ticket é do modelo e-ticket (que não necessita ser impresso) |
 | dd_seat_number  | Número do assento |
-| travel_company_id  | ID da Viação (ou empresa de ônibus) |
+| travel_company  | Viação (ou empresa de ônibus) |
 | travel_company_commission  | % de comissão que a ClickBus cobrou da Viação nesse ticket |
-| route_id  | ID da rota (ou viagem, conjunto de origem e destino) |
+| route | Rota (ou viagem, conjunto de origem e destino) |
 | unit_ticket_price_success  | Preço do ticket |
 | service_class_id  | ID do tipo (classe) do assento |
 
