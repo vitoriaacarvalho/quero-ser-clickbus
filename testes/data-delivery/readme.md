@@ -10,7 +10,8 @@ Eles entregam o resultado das ações no menor tempo possível, possibilitando a
 
 ### Descrição
 
-O arquivo [dados-Dashboard.csv](https://s3-sa-east-1.amazonaws.com/static2.clickbus.com.br/data-science/delivery/dados-Dashboard.csv) contém dados do mês de Agosto/19. Cada linha representa um dia e suas métricas, que vão desde realizado de receita por dia a número de vendas bloqueadas pelo algoritmo de anti-fraude.
+O arquivo [dados-Dashboard.csv](https://github.com/RocketBus/quero-ser-clickbus/blob/master/testes/data-delivery/dados-Dashboard.csv
+) contém dados do mês de Agosto/19. Cada linha representa um dia e suas métricas, que vão desde realizado de receita por dia a número de vendas bloqueadas pelo algoritmo de anti-fraude.
 
 
 ### Desafios
@@ -35,7 +36,7 @@ Os BD armazenam todas as informações vindas do site e também de plataformas p
 
 Uma venda pode ter N tickets, um ticket só pode ter sido vendido em uma venda. Um cliente pode ter N compras (vendas para nós) e M tickets.
 
-O banco a ser usado está no arquivo [case-ClickBus.db](https://s3-sa-east-1.amazonaws.com/static2.clickbus.com.br/data-science/delivery/case-ClickBus.db) e tem 3 tabelas: vendas, clientes e tickets.
+O banco a ser usado está no arquivo [case-ClickBus.db](https://github.com/RocketBus/quero-ser-clickbus/blob/master/testes/data-delivery/case-ClickBus.db) e tem 3 tabelas: vendas, clientes e tickets.
 
 Você pode usar site https://sqliteonline.com/ para carregar o banco de dados. Abra o site, vá em File > Open DB e selecione o arquivo.
 
