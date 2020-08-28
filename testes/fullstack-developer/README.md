@@ -1,46 +1,24 @@
 ## Lista e Detalhes de Viagem
 
+### Instruções e Requisitos
+- Utilizar Javascript (Vanilla, React, Vue)
+- Clonar esse repositório
+- Criar uma branch
+- Seguir os passos da descrição
+- Fazer o PR
+
 ### Descrição
 
-Eu desejo ver uma lista de trips (https://clickbus-teste.herokuapp.com/trips) conforme dados da minha busca.
-
-Caso eu clique em um item eu desejo ver o seat map dessa trip (https://clickbus-teste.herokuapp.com/trip/{{tripId}}). Ex: (https://clickbus-teste.herokuapp.com/trip/f301304-8b78-350a-b9b0-d3ae576eb729)
-
-Segue uma idéia de card, Desktop e Mobile.
-
-<img src="https://user-images.githubusercontent.com/9574266/50453177-f166d900-0925-11e9-802d-862b0274ff58.png">
-Desktop
+1. Eu gostaria de criar uma lista de cards consumindo os dados da api de https://clickbus-teste.herokuapp.com/trips. O card precisa ficar mais ou menos como esse aqui e não se preocupe com o estilo por enquanto.
 
 <img src="https://user-images.githubusercontent.com/9574266/50453229-4acf0800-0926-11e9-9dac-4fc6e97b8364.png">
-Mobile
+
+2. Eu gostaria também que quando clicasse em um card dessa lista de trips, mostrasse o mapa de assentos dessa trip. Para a montagem do mapa, voce pode usar esse endpoint https://clickbus-teste.herokuapp.com/trip/{{tripId}}
+Ex: https://clickbus-teste.herokuapp.com/trip/f301304-8b78-350a-b9b0-d3ae576eb729
+
+<img width="332" src="https://user-images.githubusercontent.com/22193969/91606551-a433d980-e948-11ea-8c7f-5ac7ee9df734.png"/>
 
 Segue a documentação do posicionamento dos assentos.
 
-<img src="https://user-images.githubusercontent.com/9574266/50453235-54f10680-0926-11e9-9de7-254b00cfe010.png">
+<img width="632" src="https://user-images.githubusercontent.com/22193969/91600056-ae040f80-e93d-11ea-945f-dc4a3d6f4897.png"/>
 <img src="https://user-images.githubusercontent.com/9574266/50453245-65a17c80-0926-11e9-9c41-a17d0ec9f5f8.png">
-
-### Requisitos
-
-* PHP (opcional para vagas frontend);
-* Javascript;
-* Arquivo README.md com as instruções/explicações sobre como executar e testar o projeto.
-
-### Desejável
-* Layout responsivo (qualquer biblioteca);
-* Pré-processador de css, Ex: Sass;
-* Testes unitários;
-* ES6 (caso seja em JS);
-* Mapear o json para objeto.
-
-### Diferencial
-* Framework JS;
-* SEO;
-* Ordenação e filtros da lista;
-* Webpack;
-* Continuous Integration.
-
-### Critérios da avaliação
-* Criatividade: As instruções acima não limitam nenhum desejo do desenvolvedor, seja livre;
-* Organização: estrutura do projeto, versionamento;
-* Boas práticas;
-* Tecnologia: uso de paradigmas, frameworks e bibliotecas.
