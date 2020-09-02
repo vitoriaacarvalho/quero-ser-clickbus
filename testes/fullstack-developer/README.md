@@ -21,26 +21,29 @@ Segue a documentação do posicionamento dos assentos.
 
 ### Requisitos
 
-* PHP (opcional para vagas frontend);
-* Javascript;
-* Arquivo README.md com as instruções/explicações sobre como executar e testar o projeto.
+- PHP (opcional para vagas frontend);
+- Javascript;
+- Arquivo README.md com as instruções/explicações sobre como executar e testar o projeto.
 
 ### Desejável
-* Layout responsivo (qualquer biblioteca);
-* Pré-processador de css, Ex: Sass;
-* Testes unitários;
-* ES6 (caso seja em JS);
-* Mapear o json para objeto.
+
+- Layout responsivo (qualquer biblioteca);
+- Pré-processador de css, Ex: Sass;
+- Testes unitários;
+- ES6 (caso seja em JS);
+- Mapear o json para objeto.
 
 ### Diferencial
-* Framework JS;
-* SEO;
-* Ordenação e filtros da lista;
-* Webpack;
-* Continuous Integration.
+
+- Framework JS;
+- SEO;
+- Ordenação e filtros da lista;
+- Webpack;
+- Continuous Integration.
 
 ### Critérios da avaliação
-* Criatividade: As instruções acima não limitam nenhum desejo do desenvolvedor, seja livre;
-* Organização: estrutura do projeto, versionamento;
-* Boas práticas;
-* Tecnologia: uso de paradigmas, frameworks e bibliotecas.
+
+- Criatividade: As instruções acima não limitam nenhum desejo do desenvolvedor, seja livre;
+- Organização: estrutura do projeto, versionamento;
+- Boas práticas;
+- Tecnologia: uso de paradigmas, frameworks e bibliotecas.
