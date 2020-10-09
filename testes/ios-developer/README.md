@@ -1,4 +1,4 @@
-## Clikbus - Teste desensolvedor iOS
+## ClickBus - Teste desensolvedor iOS
 
 ### Objetivo
 
