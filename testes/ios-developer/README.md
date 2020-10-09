@@ -36,5 +36,5 @@ A chave da API deve ser colocada na variável `key` que está no arquivo `MovieA
 * A API do TheMovieDB é bem completa, dê uma olhada na documentação e tenha ideias de funcionalidades suas https://www.themoviedb.org/documentation/api
 * Testes unitários
 * Capriche no layout, aplicativos são mídias visuais =) Você pode usar a imagem abaixo como exemplo, ou criar o seu próprio.
-![Referência de layout](https://github.com/RocketBus/quero-ser-clickbus/blob/master/testes/android-developer/Layout%20referencia.png)
+![Referência de layout](https://github.com/RocketBus/quero-ser-clickbus/blob/master/testes/android-developer/Layout.png)
 Fonte: https://www.behance.net/gallery/97840987/FILMINGO-Online-Cinema-Mobile-UX-UI?tracking_source=search_projects_recommended%7Cmovie%20mobile%20app
