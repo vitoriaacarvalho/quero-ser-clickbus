@@ -19,7 +19,7 @@ A chave da API deve ser colocada na variável `key` que está no arquivo `MovieA
   * Cada item da lista deve conter uma foto do filme, o título, a média e a contagem de votos.
   * O item da lista deve levar para uma tela de detalhes do filme, com uma imagem de fundo, diretor, atores, informações de lançamento, tempo, orçamento, quanto foi arrecadado com bilheteria... 
   
-5. O código deve ser feito todo em Swift
+5. O código deve ser feito todo em Swift.
 
 ### Critérios da avaliação
 * Todos as funcionalidades descritas no item 4 da Descrição
