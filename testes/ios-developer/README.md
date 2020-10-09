@@ -23,7 +23,7 @@ A chave da API deve ser colocada na variável `key` que está no arquivo `MovieA
 
 **Obs.:** 
 * Usamos o [Cocoapods](https://cocoapods.org/) para gerenciar nossas dependências. Portanto, você precisa rodar o comando `pod install --repo-update` na raiz do projeto antes de iniciar o desenvolvimento do desafio.
-* Abra o projeto no Xcode pelo arquivo `MovieDB.xcworkspace`.
+* Abra o projeto no Xcode pelo arquivo `MoviesDB.xcworkspace`.
 
 ### Critérios da avaliação
 * Todos as funcionalidades descritas no item 4 da Descrição
