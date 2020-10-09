@@ -1,4 +1,4 @@
-## ClickBus - Teste desensolvedor iOS
+## ClickBus - Desafio iOS
 
 ### Objetivo
 
