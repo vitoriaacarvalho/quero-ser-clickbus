@@ -10,7 +10,7 @@ Criar um app que lista os filmes mais populares do momento, contendo filtros por
 
 2. Cadastre-se na API do https://www.themoviedb.org/. É necessário que você obtenha uma chave da API.
 
-3. No projeto, você encontrará classes de apoio que já acessam e retornam os resultados da API, no arquivo `ViewController.swift` possui alguns exemplos.
+3. No projeto, você encontrará classes de apoio que já acessam e retornam os resultados da API, o arquivo `ViewController.swift` possui alguns exemplos.
 A chave da API deve ser colocada na variável `key` que está no arquivo `MovieAPI.swift`. Se preferir criar a sua própria comunicação pode ficar a vontade também =)
 
 4. O app deve conter:
