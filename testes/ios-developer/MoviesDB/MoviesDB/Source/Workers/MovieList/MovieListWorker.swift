@@ -12,25 +12,19 @@ typealias MovieListError = (_ error: AFError?) -> Void
 
 protocol MovieListWorkerProtocol {
     
-    var currentPage: Int { get }
-    
-    func nextPage()
-    
-    func fetchMovieList(section: Section,
+    func fetchMovieList(section: Section, page: Int,
                         sucess: @escaping MovieListSuccess,
                         failure: @escaping MovieListError)
 }
 
 class MovieListWorker: MovieListWorkerProtocol {
-
-    var currentPage = 1
     
-    func fetchMovieList(section: Section,
+    func fetchMovieList(section: Section, page: Int,
                         sucess: @escaping MovieListSuccess,
                         failure: @escaping MovieListError) {
         
         let enconding = JSONEncoding.default
-        let url = MovieAPI.build(section: section, page: currentPage)
+        let url = MovieAPI.build(section: section, page: page)
         
         Network().request(
             data: RequestData(url: url, method: .get, encoding: enconding),
@@ -41,9 +35,5 @@ class MovieListWorker: MovieListWorkerProtocol {
             failure: {error in
                 failure(error)
             })
-    }
-    
-    func nextPage() {
-        self.currentPage += 1
     }
 }

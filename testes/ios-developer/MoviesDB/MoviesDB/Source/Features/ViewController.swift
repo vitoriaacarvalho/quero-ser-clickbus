@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // EXEMPLO DE COMO OBTER A LISTA DE FILMES POPULARES
         
         MovieListWorker().fetchMovieList(
-            section: .popular,
+            section: .popular, page: 1,
             sucess: { response in
                 guard let movies = response?.results else { return }
                 print(movies)
