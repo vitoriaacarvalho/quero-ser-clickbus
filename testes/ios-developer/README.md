@@ -14,8 +14,7 @@ Criar um app que lista os filmes mais populares do momento, contendo filtros por
 A chave da API deve ser colocada na variável `key` que está no arquivo `MovieAPI.swift`. Se preferir criar a sua própria comunicação pode ficar a vontade também =)
 
 4. O app deve conter:
-  * Uma lista dos filmes mais populares no momento.
-  * Uma maneira de filtrar os filmes por gênero. Mais de um genêro pode ser selecionado, e se o filme possui qualquer um dos selecionados deve aparecer na lista (Ex.: Filme A é uma comédia, Filme B é um romance e Filme C é de ação. Ao selecionar os filtros comédia e romance, a lista deve conter A e B apenas).
+  * Uma lista dos filmes mais populares no momento (lista com paginação).
   * Cada item da lista deve conter uma foto do filme, o título, a média e a contagem de votos.
   * O item da lista deve levar para uma tela de detalhes do filme, com uma imagem de fundo, diretor, atores, informações de lançamento, tempo, orçamento, quanto foi arrecadado com bilheteria... 
   
