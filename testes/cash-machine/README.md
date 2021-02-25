@@ -15,22 +15,22 @@ Os requisitos básicos são os seguintes:
 
 Exemplos:
 ---------
-* 
- **Entrada:** 30.00  
- **Resultado:** [20.00, 10.00]
+ 
+**Entrada:** 30.00  
+**Resultado:** [20.00, 10.00]
 
-* 
-  **Entrada:** 80.00  
-  **Resultado:** [50.00, 20.00, 10.00]
 
-* 
-  **Entrada:** 125.00  
-  **Resultado:** *throw NoteUnavailableException*
+**Entrada:** 80.00  
+**Resultado:** [50.00, 20.00, 10.00]
 
-* 
- **Entrada:** -130.00   
- **Resultado:** *throw InvalidArgumentException*
 
-* 
-  **Entrada:** NULL  
-  **Resultado:** [Empty Set]
+**Entrada:** 125.00  
+**Resultado:** *throw NoteUnavailableException*
+
+
+**Entrada:** -130.00   
+**Resultado:** *throw InvalidArgumentException*
+
+
+**Entrada:** NULL  
+**Resultado:** [Empty Set]
