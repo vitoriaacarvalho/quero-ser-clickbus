@@ -1,14 +1,33 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-testes/android-developer/Movie DB Test/.idea/caches/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-testes/android-developer/Movie DB Test/.idea/libraries/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-testes/android-developer/Movie DB Test/local.properties
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-testes/android-developer/Movie DB Test/gradlew.bat
-
-testes/android-developer/Movie DB Test/gradlew
-
-testes/android-developer/Movie DB Test/.idea/workspace.xml
-
-testes/android-developer/Movie DB Test/.idea/vcs.xml
+### VS Code ###
+.vscode/
