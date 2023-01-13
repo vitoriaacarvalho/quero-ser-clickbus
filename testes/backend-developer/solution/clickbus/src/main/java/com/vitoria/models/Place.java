@@ -20,7 +20,7 @@ public class Place implements Serializable{
 	
 	@Column(name="slug", unique=true)
 	@Id
-	private String slug;
+	private Integer slug;
 	
 	@Column(name="city")
 	private String city;
@@ -29,7 +29,7 @@ public class Place implements Serializable{
 	private String state;
 	
 	@Column(name="created_at")
-	private Date createdAt;
+	private LocalDate createdAt;
 	
 	@Column(name="updated_at")
 	private LocalDate updatedAt;
@@ -37,7 +37,7 @@ public class Place implements Serializable{
 	public Place() {
 	}
 
-	public Place(String name, String slug, String city, String state, Date createdAt, LocalDate updatedAt) {
+	public Place(String name, Integer slug, String city, String state, LocalDate createdAt, LocalDate updatedAt) {
 		this.name = name;
 		this.slug = slug;
 		this.city = city;
@@ -54,11 +54,11 @@ public class Place implements Serializable{
 		this.name = name;
 	}
 
-	public String getSlug() {
+	public Integer getSlug() {
 		return slug;
 	}
 
-	public void setSlug(String slug) {
+	public void setSlug(Integer slug) {
 		this.slug = slug;
 	}
 
@@ -78,12 +78,12 @@ public class Place implements Serializable{
 		this.state = state;
 	}
 
-	public Date getCreatedAt() {
+	public LocalDate getCreatedAt() {
 		return createdAt;
 	}
 
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
+	public void setCreatedAt(LocalDate localDate) {
+		this.createdAt = localDate;
 	}
 
 	public LocalDate getUpdatedAt() {

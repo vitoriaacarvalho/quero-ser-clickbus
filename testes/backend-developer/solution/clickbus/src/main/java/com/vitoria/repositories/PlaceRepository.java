@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.vitoria.models.Place;
 
 @Repository
-public interface PlaceRepository extends JpaRepository<Place, String>{
+public interface PlaceRepository extends JpaRepository<Place, Integer>{
 
 
 }

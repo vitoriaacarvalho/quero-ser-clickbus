@@ -33,7 +33,7 @@ public class PlaceController {
 	
 	
 	@GetMapping("/{slug}")
-	public ResponseEntity<Optional<Place>> getPlace(@PathVariable String slug){
+	public ResponseEntity<Optional<Place>> getPlace(@PathVariable Integer slug){
 		Optional<Place> place = repo.findById(slug);
 		return ResponseEntity.ok().body(place);
 	}
@@ -41,12 +41,13 @@ public class PlaceController {
 	@PostMapping("/save")
 	public ResponseEntity<Place> savePlace(@RequestBody Place place){
 		Place entity=place;
+		entity.setCreatedAt(LocalDate.now());
 		repo.save(entity);
 		return ResponseEntity.ok().body(entity);
 	}
 	
 	@PutMapping("update/{slug}")
-	public ResponseEntity<Place> updatePlace(@PathVariable String slug, @RequestBody Place place){
+	public ResponseEntity<Place> updatePlace(@PathVariable Integer slug, @RequestBody Place place){
 		Place updatedPlace=repo.findById(slug).get();
 		updatedPlace.setName(place.getName());
 		updatedPlace.setCity(place.getCity());
