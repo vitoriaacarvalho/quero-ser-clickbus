@@ -29,3 +29,6 @@ $ git clone https://github.com/vitoriaacarvalho/quero-ser-clickbus.git
     
   # Testing environment
   $ docker pull vitoriacarvalho/clickbus
+  
+  # My Youtube Video 
+  https://www.youtube.com/watch?v=04P5InNLYY8
